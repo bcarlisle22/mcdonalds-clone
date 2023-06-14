@@ -5,7 +5,7 @@ McDonalds's Clone
 - CSS
 - Javascript
 
-
+![](images/mcondals-update-1.jpg)
 ![](images/mcdonalds1.jpg)
 ![](images/mcdonalds2.jpg)
 ![](images/mcdonalds3.jpg)
