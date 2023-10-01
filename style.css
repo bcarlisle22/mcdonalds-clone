@@ -1,4 +1,4 @@
-/* general */
+/* shared */
 
 *{
     padding: 0;
@@ -6,6 +6,9 @@
 }
 html{
     font-family: sans-serif;
+}
+body{
+    animation: fade 3s;
 }
 a{
     color: black;
@@ -25,7 +28,16 @@ button{
 button:hover{
     cursor: pointer;
 }
-/* top nav */
+/* fade in */
+@keyframes fade{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+/* first nav */
 .navigation-links{
     display: flex;
     color: #292929;
@@ -113,56 +125,6 @@ button:hover{
     background-color: rgb(0,0,0,4%);
 }
 
-/* hero one */
-
-
-#hero-image{
-    width: 47%;
-    float: left;
-    margin-right: 40px;
-}
-.hero-one{ 
-    margin-top: 5%;
-    margin-left: 20%;
-    margin-bottom: 10%;
-}
-.hero-one h1{
-    font-size: 35px;
-    margin-top: 100px;
-}
-.hero-one p{
-    margin-top: 20px;
-    font-weight: 100;
-    font-size: 16px;
-}
-#star{
-    font-size: 10px;
-}
-#order-ahead-button{
-    margin-top: 4%;
-    padding: 15px;
-    width:15%;
-    border: 1px solid #ffbc0d;
-    color: #292929;
-    border-radius: 5px;
-    font-size: 16px;
-}
-#order-ahead-button-two{
-    margin-top: 4%;
-    padding: 15px;
-    width: 20%;
-    border: 1px solid #ffbc0d;
-    color: #292929;
-    border-radius: 5px;
-    font-size: 16px;
-}
-#exclusive{
-    color: #006bae;
-    text-decoration: underline;
-}
-/* hero- two */
-
-
 /* links section */
 .links-section-bottom{
     width: 90%;
@@ -238,4 +200,392 @@ button:hover{
     width: 40%; */
     font-weight: 300;
     font-size: 13px;
+}
+
+/* hero one */
+
+
+#hero-image{
+    width: 47%;
+    float: left;
+    margin-right: 40px;
+}
+.hero-one{ 
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-bottom: 10%;
+}
+.hero-one h1{
+    font-size: 35px;
+    margin-top: 100px;
+}
+.hero-one p{
+    margin-top: 20px;
+    font-weight: 100;
+    font-size: 16px;
+}
+#star{
+    font-size: 10px;
+}
+#order-ahead-button{
+    margin-top: 4%;
+    padding: 15px;
+    width:15%;
+    border: 1px solid #ffbc0d;
+    color: #292929;
+    border-radius: 5px;
+    font-size: 16px;
+}
+#order-ahead-button-two{
+    margin-top: 4%;
+    padding: 15px;
+    width: 20%;
+    border: 1px solid #ffbc0d;
+    color: #292929;
+    border-radius: 5px;
+    font-size: 16px;
+}
+#exclusive{
+    color: #006bae;
+    text-decoration: underline;
+}
+/* hero- two */
+
+
+
+
+/* sign up page */
+
+.signup-form{
+    margin-top: 5%;
+    margin-left: 28%;
+}
+.signup-form h1{
+    font-size: 45px;
+}
+.signup-form h2{
+    font-size: 30px;
+    margin-top: 20px;
+}
+.signup-form p{
+    font-weight: 300;
+    font-size: 13px;
+    margin-top: 40px;
+    margin-bottom: 5%;
+}
+
+#blurb{
+    font-weight: 300;
+    font-size: 13px;
+}
+
+/* form */
+
+.form{
+    font-size: 13px;
+    background: transparent;
+    margin-top: 25px;
+}
+.input-box{
+    margin: 50px 0;
+    width: 50%;
+    border-bottom: 1px solid rgb(203, 195, 195);
+}
+
+label{
+    font-weight: 300;
+    font-size: 14px;
+    transition: .5s;
+}
+
+input{
+    background: transparent;
+    border: none;
+    outline: none;
+    margin-bottom: 5px;
+}
+
+input:focus ~ label,
+input:valid ~ label{
+    pointer-events: none;
+    top: -5px;
+}
+
+
+/* blurb */
+
+#blurb-links{
+    text-decoration: underline;
+    color: #006bae;
+}
+
+#sign-up-emails{
+    border: 1px solid #ffbc0d;
+    width: 8%;
+    padding: 14px;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 15px;
+    color: #292929;
+    margin-top: 2%;
+}
+.when-you-signup{
+    margin-left: 20%;
+    margin-bottom: 10%;
+}
+
+.when-you-signup h1{
+    margin-bottom: 8%;
+}
+
+.signup-images{
+    width:100%;
+}
+
+.signup-images img{
+    margin-bottom: 30px;
+}
+
+.signup-images h2, h3, h4{
+    font-weight: 300;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.signup-images p{
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+#rewards-blurb{
+    font-size: 9px;
+}
+#mcdonaldsrewardsterms{
+    color:#006bae;
+    text-decoration: underline;
+}
+
+#rewards-updates-button{
+    border: 1px solid #ffbc0d;
+    padding: 15px;
+    width: 10.5%;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+/* careers page */
+
+.careers-top h1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 4%;
+    margin-bottom: 7%;
+}
+#careers-image{
+    width: 40%;
+    float: left;
+    margin-right: 20px;
+    margin-left: 20%;
+}
+
+.careers-top p{
+    margin-bottom: 10%;
+    font-weight: 300;
+    font-size: 15px;
+    margin-top: 5px;
+    line-height: 1.5;
+}
+#careers-button{
+    padding: 15px;
+    border: 1px solid #ffbc0d;
+    width: 8%;
+    border-radius:  5px;
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 30px;
+}
+.careers-middle {
+    margin-left: 20%;
+}
+
+.work-with-us h2{
+    font-size: 35px;
+    padding-top: 6%;
+    padding-bottom: 5%;
+}
+.benefits-paragraph{
+    margin-bottom: 14%;
+}
+.benefits-paragraph h3{
+    font-size: 30px;
+}
+.benefits-paragraph p{
+    line-height: 1.4;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+#careers-benefits-button{
+    padding: 15px;
+    font-size: 15px;
+    width: 10%;
+    border: 1px solid #ffbc0d;
+    border-radius: 5px;
+    margin-top: 3%;
+    font-weight: 300;
+}
+
+/* blurb */
+
+.careers-blurb p{
+    font-size: 10.5px;
+    text-align: center;
+    text-align: left;
+    margin-left: 20%;
+    margin-bottom: 10%;
+    font-weight: 300;
+    margin-top: 15%;
+}
+
+/* download app page */
+.app-middle{
+    margin-bottom: 10%;
+}
+.app-heading h1{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 50px;
+}
+
+/* hero two */
+
+ #hero-image{
+    width: 47%;
+    float: left;
+    margin-right: 40px;
+}
+.hero-two{ 
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-bottom: 10%;
+}
+.hero-two h1{
+    font-size: 35px;
+    margin-top: 100px;
+}
+.hero-two p{
+    margin-top: 20px;
+    font-weight: 100;
+    font-size: 16px;
+}
+#star{
+    font-size: 10px;
+}
+
+#delivery-link{
+    text-decoration: underline;
+    color: #006bae;
+}
+
+#delicious{
+    font-size: 50px;
+    margin-top: 100px;
+    font-weight: 600;
+}
+#deals{
+    color: #006bae;
+    text-decoration: underline;
+}
+
+.deals-and-more{
+    margin-top: 25%;
+    text-align: left;
+    margin-left: 20%;
+}
+
+.deals-and-more h1{
+    margin-bottom: 30px;
+}
+
+.deals-and-more p{
+    font-weight: 300;
+}
+
+/* deals page */
+
+.deals-header h1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 4%;
+    margin-bottom: 7%;
+}
+
+#hero-three-image{
+    width: 25%;
+    float: left;
+    margin-right: 40px;
+}
+
+
+/* about our food page */
+
+.food-header{
+    margin-left: 20%;
+}
+.food-header h1{
+    margin-left: 24%;
+    font-size: 50px;
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+ 
+.passionate-about {
+    margin-left: 20%;
+    margin-top: 7%; 
+    margin-bottom: 6%;
+}
+.passionate-about h2{
+    font-size: 30px;
+}
+
+.passionate-about p{
+    font-size: 15px;
+    margin-top: 30px;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+.about-containers{
+    display: flex;
+    margin-left: 20%;
+    flex-wrap: wrap;
+}
+
+.container{
+    justify-content: space-between;
+    margin-right: 5%;
+    margin-bottom: 8%;
+}
+.container h3{
+    margin-top: 8%;
+    font-weight: 300;
+}
+.container p{
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+
+#about-button{
+    border: 1px solid #ffbc0d;
+    padding:16px;
+    width: 26%;
+    border-radius: 5px;
+}
+
+#about-blurb{
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 2px;  
 }
