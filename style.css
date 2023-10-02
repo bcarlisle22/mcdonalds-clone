@@ -262,6 +262,7 @@ button:hover{
 }
 .signup-form h1{
     font-size: 45px;
+    margin-left: 7%;
 }
 .signup-form h2{
     font-size: 30px;
@@ -332,21 +333,24 @@ input:valid ~ label{
 .when-you-signup{
     margin-left: 20%;
     margin-bottom: 10%;
+    display: flex;
+    flex-wrap: wrap;
+
 }
 
-.when-you-signup h1{
-    margin-bottom: 8%;
+.when-you-signup-text h1{
+    margin-bottom: 5%;
+    margin-left: 20%;
 }
 
 .signup-images{
-    width:100%;
+    margin-right: 25px;
 }
-
 .signup-images img{
     margin-bottom: 30px;
 }
 
-.signup-images h2, h3, h4{
+.signup-images h2{
     font-weight: 300;
     font-size: 30px;
     margin-bottom: 15px;
@@ -367,10 +371,11 @@ input:valid ~ label{
 #rewards-updates-button{
     border: 1px solid #ffbc0d;
     padding: 15px;
-    width: 10.5%;
+    width: 45%;
     border-radius: 5px;
     font-size: 15px;
     font-weight: 100;
+    margin-top: 30px;
 }
 
 /* careers page */
@@ -406,18 +411,24 @@ input:valid ~ label{
 }
 .careers-middle {
     margin-left: 20%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .work-with-us h2{
     font-size: 35px;
     padding-top: 6%;
     padding-bottom: 5%;
+    margin-left: 20%;
 }
 .benefits-paragraph{
     margin-bottom: 14%;
+    margin-right: 25px;
 }
 .benefits-paragraph h3{
     font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 20px;
 }
 .benefits-paragraph p{
     line-height: 1.4;
@@ -428,7 +439,7 @@ input:valid ~ label{
 #careers-benefits-button{
     padding: 15px;
     font-size: 15px;
-    width: 10%;
+    width: 25%;
     border: 1px solid #ffbc0d;
     border-radius: 5px;
     margin-top: 3%;
@@ -444,7 +455,6 @@ input:valid ~ label{
     margin-left: 20%;
     margin-bottom: 10%;
     font-weight: 300;
-    margin-top: 15%;
 }
 
 /* download app page */
@@ -569,6 +579,9 @@ input:valid ~ label{
 .container h3{
     margin-top: 8%;
     font-weight: 300;
+    font-size: 35px;
+    margin-bottom: 15px;
+
 }
 .container p{
     font-weight: 300;
@@ -588,4 +601,138 @@ input:valid ~ label{
     font-size: 10px;
     font-weight: 300;
     line-height: 2px;  
+}
+
+/* rewards page */
+
+.rewards-header{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom:30px;
+    margin-top: 5%;
+}
+.rewards-text{
+    margin-left: 20%;
+    font-weight: 200;
+}
+.rewards-text p{
+    margin-bottom: 20px;
+}
+#rewards-blurb{
+    font-weight: 200;
+}
+#program-link{
+    color:#006bae;
+    text-decoration: underline;
+}
+
+.points-header{
+    margin-left:20%;
+}
+
+.points-header h2{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.points-header p{
+    font-weight: 300;
+    font-size: 15px;
+    margin-bottom: 5%;
+}
+
+.earn-points{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20%;
+}
+
+.points-container{
+    margin-right:20px;
+}
+
+.points-container h3{
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 25px;
+}
+.points-container p{
+    font-weight: 200;
+    line-height: 25px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+#points-blurb{
+    font-size: 10px;
+    font-weight: 200;
+}
+
+.points-middle{
+    margin-left: 20%;
+    margin-top: 5%;
+}
+.more-points h4{
+    font-size: 33px;
+    margin-bottom: 20px;
+    margin-top: 5%;
+}
+.more-points p{
+    font-weight: 200;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+
+.points-images{
+    margin-right: 25px;
+    margin-bottom: 10%;
+}
+.points-images-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.points-images h5{
+    font-size: 33px;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.points-images p{
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+#points-images-link{
+    text-decoration: underline;
+    color:#006bae;
+}
+
+
+
+/* faqs */
+.faqs{
+    margin-bottom: 15%;
+}
+.faqs-header h6{
+    font-size: 33px;
+}
+.faqs-container{
+    margin-bottom: 30px;
+}
+.faqs-container h6{
+    font-size:  33px;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.faqs-container p{
+    font-weight: 200;
+    line-height: 25px;
+    font-size: 15px;
+}
+#app-link{
+    text-decoration: underline;
+    color:#006bae;
 }
