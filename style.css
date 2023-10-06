@@ -45,6 +45,8 @@ button:hover{
     margin-top: 25px;
     margin-bottom: 15px;
 }
+
+
 #logo{
     float: left;
     margin-left: 18%;
@@ -64,8 +66,8 @@ button:hover{
     font-size: 13px;
 }
 #down{
-    transform: translateY(10px);
-    font-weight: 200;
+    /* transform: translateY(10px);
+    font-weight: 200; */
 }
 
 .top-nav-one-right{
@@ -108,14 +110,19 @@ button:hover{
 /* navigation two*/
 
 .navigation-two{
-    display: flex;
+    display: inline-block;
     font-weight: 300;
     font-size: 15px;
-    margin-left: 27%;
-    margin-bottom: 45px;
+    margin-left: 3.5%;
+    margin-bottom: 15px;
 }
 .navigation-two a{
     margin-right: 20px;
+}
+.navigation-two a:hover{
+    text-decoration: underline 5px solid #d90007;
+    text-underline-offset: 50px;
+    font-weight: 500;
 }
 
 #nav-line{
@@ -735,4 +742,160 @@ input:valid ~ label{
 #app-link{
     text-decoration: underline;
     color:#006bae;
+}
+
+/* arch gift card */
+
+#gc-header{
+    font-weight: 600;
+}
+
+.gf-card-header h1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+
+.giftcard-img img{
+    margin-left: 20%;
+    margin-bottom: 5%;
+}
+#giftcard-button{
+    border: 1px solid #ffbc0d;
+    padding:16px;
+    width: 30%;
+    border-radius: 5px;
+}
+.extra-card-text{
+    margin-left: 20%;
+    margin-bottom: 10%;
+}
+
+.extra-card-text h4{
+    font-size: 34px;
+    margin-bottom: 15px;
+}
+
+.extra-card-text p{
+    font-size: 15px;
+    font-weight: 300;
+}
+#extra-card-button{
+    border: 1px solid #ffbc0d;
+    padding:14px;
+    width: 10%;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+#extra-card-button-two{
+    border: 1px solid #ffbc0d;
+    padding:14px;
+    width: 13%;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.terms-conditions{
+    margin-left: 20%;
+    margin-bottom: 15%;
+
+}
+.terms-conditions  h4{
+    font-size: 34px;
+    margin-bottom: 15px;
+}
+.terms-conditions p{
+    font-size: 15px;
+    font-weight: 300;
+}
+#tc-button{
+    border: 1px solid #ffbc0d;
+    padding:16px;
+    width: 18%;
+    border-radius: 5px;
+    margin-top: 5%;
+    margin-right: 10px;
+}
+
+/* menu page */
+
+.menu{
+    margin-top: 5%;
+}
+.menu-header{
+    margin-left: 42%;
+    margin-bottom: 3%;
+}
+.menu-header h1{
+    font-size: 54px;
+    margin-bottom: 1em;
+}
+.menu-header p{
+    margin-left: 3em;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.menu-items-images{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 36%;
+    width: 50%;
+}
+.menu-items-images img{
+    width: 60%;
+    margin-right: 5%;
+}
+.menu-img{
+    margin-bottom: 7em;
+}
+.menu-img h1{
+    font-size: 18px;
+    font-weight: 200;
+    text-align: center;
+    width: 70%;
+}
+/* other  */
+.menu-items-images-breakfast, 
+.menu-items-images-burgers, 
+.menu-items-images-chick-fish,
+.menu-items-images-nuggets,
+.menu-items-images-fs,
+.menu-items-images-coffee,
+.menu-items-images-sweets,
+.menu-items-images-beverages{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 24%;
+    width: 70%;
+}
+
+
+.menu-items-images-breakfast img, 
+.menu-items-images-burgers img, 
+.menu-items-images-chick-fish img,
+.menu-items-images-nuggets img,
+.menu-items-images-fs img,
+.menu-items-images-coffee img,
+.menu-items-images-sweets img,
+.menu-items-images-beverages img{
+    width: 60%;
+    margin-right: 5%;
+}
+.bottom-blurb{
+    margin-left: 20%;
+    font-weight: 300;
+    font-size: 14px;
+    margin-top: 5%;
+    line-height: 20px;
+    margin-bottom: 5%;
+}
+#menu-bottom-blurb{
+    text-decoration: underline;
+    color: #006bae;
+}
+
+#bottom-blurb-menu{
+    font-size: 10px;
+    padding-top: 20px;
 }
