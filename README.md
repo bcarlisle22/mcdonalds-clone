@@ -1,12 +1,12 @@
 McDonalds's Clone
 
 
-- HTML
+HTML
 - CSS
 - Javascript
 
-![](images/mcondals-update-1.jpg)
-![](images/mcdonalds1.jpg)
-![](images/mcdonalds2.jpg)
-![](images/mcdonalds3.jpg)
-![](images/mdonalds4.jpg)
+![](images/home1)
+![](images/home2)
+![](images/home3)
+![](images/home4)
+![](images/home5)
