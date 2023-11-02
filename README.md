@@ -1,4 +1,5 @@
-🍔 McDonald's Website Clone
+🍔🍟🥤 McDonald's Website Clone 🍔🍟🥤
+
 
 An extensive McDonald's website clone featuring a variety of pages to provide an immersive user experience.
 The comprehensive clone offers a true-to-life experience, making it a valuable learning resource for both developers and McDonald's enthusiasts.
@@ -6,7 +7,7 @@ It also serves as a practical showcase of web development skills, including fron
 <br>
 <br>
 <br>
-OVERVIEW
+Overview:
 <br>
 <br>
 <br>
@@ -31,7 +32,7 @@ Sign Up for Email Page: Capture user information for email subscriptions.
 <br>
 <br>
 <br>
-KEY FEATURES
+Key Features:
 <br>
 <br>
 <br>
