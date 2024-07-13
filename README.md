@@ -1,4 +1,10 @@
 🍔🍟🥤 McDonald's Website Clone 🍔🍟🥤
+<hr>
+<br>
+
+``HTML`` | ``CSS``
+
+<br>
 
 
 An extensive McDonald's website clone featuring a variety of pages to provide an immersive user experience.
