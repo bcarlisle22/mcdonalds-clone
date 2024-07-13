@@ -1,4 +1,4 @@
-🍔🍟🥤 McDonald's Website Clone 🍔🍟🥤
+🍔🍟🥤 McDonald's Landing Page Clone 🍔🍟🥤
 <hr>
 <br>
 
