@@ -26,6 +26,12 @@ McDonald's Landing Page Clone
 ![](images/menu-1.png)
 ![](images/menu-2.png)
 ![](images/menu-3.png)
+<br>
+<br>
+![](images/download-1.png)
+![](images/download-2.png)
+![](images/download-3.png)
+![](images/download-4.png)
 
 
 
